@@ -19,8 +19,14 @@ class Welcome extends Application {
 	 */
 	public function index()
 	{
-		$this->data['pagebody'] = 'welcome';
-		$this->render();
+		if ($this->session->userdata('userid'))
+		{
+			redirect('/roomlist');
+		}
+		else
+		{
+			redirect('/login');
+		}
 	}
 }
 

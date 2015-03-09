@@ -1,0 +1,57 @@
+.chat * {
+    vertical-align:middle;
+}
+.chatusername {
+    font-weight: bold;
+}
+.chattext {
+    margin-left: 1em; margin-right: 1em;
+}
+
+#msgbox {
+    margin: 0 auto;
+}
+.msgboxelement {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.msgsendbtn input {
+    width: 100%;
+
+    outline: 0;
+    display: block;
+    color: #9fa8b0;
+    font-weight: bold;
+    text-shadow: 1px 1px #1f272b;
+    border: 1px solid #1c252b;
+    background: #232B30;
+}
+.msgsendbtn input:hover {
+    color: #fff;
+    background: #4C5A64;
+}
+.msgsendbtn input:active {
+    color: #fff;
+    background: #20282D;
+}
+.msgtextarea input {
+    width: 100%;
+
+    padding: 1em 0 1em 0;
+    outline: 0;
+    display: block;
+    font-weight: bold;
+    text-shadow: 1px 1px #1f272b;
+    border: 1px solid #1c252b;
+    color: #fff;
+    background: #20282D;
+}
+.msgsendbtn input {
+    padding: 1em;
+}
+
+#ChatRooms {
+    width: 500px;
+}
